@@ -2,12 +2,10 @@ function speedDetector() {
     const speedLimit = 70;
     const kmPerDemeritPoint = 5;
 
-    // Prompt the user to enter the speed
     let speed = prompt("Please enter the speed (in km/h):");
     
-    // Convert input to a number
+    
     speed = parseFloat(speed);
-    //user input validation
 
     if (isNaN(speed)) {
         alert("Invalid input! Please enter a valid number.");
@@ -34,5 +32,5 @@ function speedDetector() {
     }
 }
 
-// Call the function 
+ 
 console.log(speedDetector());

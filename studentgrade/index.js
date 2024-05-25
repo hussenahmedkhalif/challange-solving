@@ -22,7 +22,7 @@ switch (true) {
 
 
     default:
-        console.log("invalid input");
+        console.log("invalid input"); 
         break;
 }console.log(output);
-document.write(output)
+document.write(output) 
